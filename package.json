@@ -1,0 +1,21 @@
+{
+  "name": "simple-asyncify",
+  "version": "0.1.0",
+  "author": "Simon Lydell",
+  "license": "MIT",
+  "description": "Turns sync functions into Node.js-style async ones.",
+  "main": "index.js",
+  "repository": "lydell/simple-asyncify",
+  "keywords": [
+    "async",
+    "asyncify",
+    "callback"
+  ],
+  "scripts": {
+    "test": "jshint index.js test/ && node test/index.js"
+  },
+  "devDependencies": {
+    "jshint": "^2.4.4",
+    "tape": "^2.5.0"
+  }
+}
