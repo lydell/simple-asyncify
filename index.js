@@ -5,12 +5,14 @@ function asyncify(syncFn) {
   return function() {
     var args = Array.prototype.slice.call(arguments)
     var callback = args.pop()
+    var result
     setImmediate(function() {
       try {
-        callback(null, syncFn.apply(this, args))
+        result = syncFn.apply(this, args)
       } catch (error) {
-        callback(error)
+        return callback(error)
       }
+      callback(null, result)
     })
   }
 }
