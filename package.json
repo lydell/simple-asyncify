@@ -1,6 +1,6 @@
 {
   "name": "simple-asyncify",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Simon Lydell",
   "license": "MIT",
   "description": "Turns sync functions into Node.js-style async ones.",
