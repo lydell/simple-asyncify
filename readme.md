@@ -1,4 +1,4 @@
-Overview [![Build Status](https://travis-ci.org/lydell/simple-asyncify.png?branch=master)](https://travis-ci.org/lydell/simple-asyncify)
+Overview [![Build Status](https://travis-ci.org/lydell/simple-asyncify.svg?branch=master)](https://travis-ci.org/lydell/simple-asyncify)
 ========
 
 Turns sync functions into Node.js-style async ones.
