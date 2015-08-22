@@ -15,7 +15,7 @@
     "test": "jshint index.js test/ && node test/index.js"
   },
   "devDependencies": {
-    "jshint": "^2.4.4",
-    "tape": "^2.5.0"
+    "jshint": "^2.8.0",
+    "tape": "^4.2.0"
   }
 }
