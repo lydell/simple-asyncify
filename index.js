@@ -1,4 +1,5 @@
 // Copyright 2014 Simon Lydell
+// Copyright 2015 Charlie Rudolph
 // X11 (“MIT”) Licensed. (See LICENSE.)
 
 function asyncify(syncFn) {
